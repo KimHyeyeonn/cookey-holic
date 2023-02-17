@@ -19,7 +19,11 @@ main {
   justify-content: center;
   align-items: center;
 }
-
+.bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 .main-img.active {
   filter: brightness(30%);
 }
